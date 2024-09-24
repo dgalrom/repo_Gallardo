@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\1DAW\repositorios_git\repo_Gallardo\programacion\.metadata\.plugins\org.eclipse.jdt.core
+2584119045.index
+1865797976.index
+2858444796.index
