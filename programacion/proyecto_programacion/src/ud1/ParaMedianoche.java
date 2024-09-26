@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class ParaMedianoche {
-
+	
 	public static void main(String[] args) {
 		
 		//Explicacion
@@ -31,7 +31,6 @@ public class ParaMedianoche {
 		int resultado = 86400 - totalinput  ;
 		
 		//Mostrar resultado
-		
 		System.out.println("Quedan "+ resultado +" segundos para medianoche");
 	}
 
