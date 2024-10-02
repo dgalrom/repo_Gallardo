@@ -7,11 +7,11 @@ public class Menu {
 	public static void main(String[] args) {
 
 		//Opciones
-		System.out.println("Opciones"
-				+ "1. Comprimir archivo"
-				+ "2. Eliminar archivo"
-				+ "3. Copiar archivo"
-				+ "4. Cerrar programa");
+		System.out.println("Opciones");
+				System.out.println("1. Comprimir archivo");
+				System.out.println("2. Eliminar archivo");
+				System.out.println("3. Copiar archivo");
+				System.out.println"4. Cerrar programa"));
 		
 		//Herramienta Scanner
 		Scanner scan = new Scanner(System.in);
