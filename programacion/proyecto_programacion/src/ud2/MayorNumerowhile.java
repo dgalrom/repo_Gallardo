@@ -2,7 +2,7 @@ package ud2;
 
 import java.util.Scanner;
 
-public class MayorNumero {
+public class MayorNumerowhile {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -12,14 +12,19 @@ public class MayorNumero {
 		System.out.println("Introduzca \"STOP\" cuando quieras parar de introducir números");
 int numeroDatos = scan.nextInt();
 int mayorNumero = Integer.MIN_VALUE;
-for (int index = 0 ;index == numeroDatos;index++) {
-	System.out.println("Introduce el dato numero" + (index+1));
+String dato = "";
+boolean salir = false;
+do {
+	System.out.println("Introduce un entero");
+	dato = scan.nextLine();
+	salir = "STOP".equals(dato) ? true : false;
+}while (!salir); 
 int numActual = scan.nextInt();
 if(mayorNumero < numActual) {
 	mayorNumero = numActual;
 }
-System.out.println("Te faltan " + (numeroDatos - index -1) + " datos");
+System.out.println("Te faltan " + (numeroDatos - numActual -1) + " datos");
 }
 	}
 
-}
+
