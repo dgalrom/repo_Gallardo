@@ -17,13 +17,22 @@ boolean salir = false;
 do {
 	System.out.println("Introduce un entero");
 	dato = scan.nextLine();
-	salir = "STOP".equals(dato) ? true : false;
+	if ("STOP".equals(dato)) {
+		salir = true;
+	} else {
+		int datoEntero = Integer.parseInt(dato);
+	mayorNumero = datoEntero > mayorNumero ? datoEntero : mayorNumero;
+	if(datoEntero >  mayorNumero) {
+		mayorNumero = datoEntero;
+	}
+	}
 }while (!salir); 
+
 int numActual = scan.nextInt();
 if(mayorNumero < numActual) {
 	mayorNumero = numActual;
 }
-System.out.println("Te faltan " + (numeroDatos - numActual -1) + " datos");
+System.out.println("El mayor numero introducido es el " + mayorNumero);
 }
 	}
 
