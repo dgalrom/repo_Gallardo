@@ -12,11 +12,12 @@ public class RepeticionSimbolos {
 		System.out.println("Introduzca uno de los siguientes simbolos: +, *, $, €");
 		String simbolo = scan.nextLine();
 		System.out.println("Introduzca el numero de veces que quiere que se repita");
-		int numero = scan.nextInt();
+		int repeticionesObj = scan.nextInt();
 		
-		for (condicion ;  ; simbolo++) {
+		for ( int repeticionesAct = 0  ; repeticionesAct<repeticionesObj  ; repeticionesAct++) {
 			
 			System.out.println(simbolo);
 	}
 
+}
 }
