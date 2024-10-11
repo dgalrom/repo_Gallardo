@@ -1,4 +1,4 @@
-package ud2;
+package ud2.ud2_boletin_ejercicios;
 
 import java.util.Scanner;
 
