@@ -31,7 +31,7 @@ public class EtapaVital0 {
 					
 					System.out.println("Niño");
 				
-				  } else if {{
+				  } else if {
 					 
 				}		System.out.println("Adulto");
 					}

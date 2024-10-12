@@ -11,7 +11,7 @@ public class Menu {
 				System.out.println("1. Comprimir archivo");
 				System.out.println("2. Eliminar archivo");
 				System.out.println("3. Copiar archivo");
-				System.out.println"4. Cerrar programa"));
+				System.out.println("4. Cerrar programa");
 		
 		//Herramienta Scanner
 		Scanner scan = new Scanner(System.in);
