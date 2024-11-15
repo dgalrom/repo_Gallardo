@@ -5,6 +5,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<item key="delegateUpdating" value="false"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Diego\Downloads"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="quick_assist_proposal_size">
@@ -68,5 +69,8 @@
 	</section>
 	<section name="NewPackageWizardPage">
 		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
 	</section>
 </section>
