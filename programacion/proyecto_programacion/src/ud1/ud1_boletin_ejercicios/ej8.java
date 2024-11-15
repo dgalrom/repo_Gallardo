@@ -23,16 +23,16 @@ public class ej8 {
 		int medio;
 		int menor;
 		
-		if (n1 > n2 > n3) {
+		//if (n1 > n2 > n3) {
 			mayor = n1;
 			medio = n2;
 			menor = n3;
 			
-			if (n2 > n1 > n3) {
+	//		if (n2 > n1 > n3) {
 				mayor = n2;
-				medio
-			}
-		}else {
+		//		medio
+			//}
+		//}else {
 			mayor = n2;
 			if (mayor< n3) {
 				mayor = n3;
@@ -41,4 +41,4 @@ public class ej8 {
 		}
 	}
 
-}
+//}

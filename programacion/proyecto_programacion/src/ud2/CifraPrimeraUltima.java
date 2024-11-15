@@ -16,6 +16,7 @@ public class CifraPrimeraUltima {
 		System.out.println("1: Primera cifra");
 		System.out.println("2: Ultima cifra");
 		int opcion = scan.nextInt();
+		int numero = 0;
 		do {
 			switch(opcion) {
 			case 1:
@@ -34,8 +35,9 @@ public class CifraPrimeraUltima {
 				System.out.println("La ultima cifra del numero " + numero + " es " + ultimaCifra);
 			}
 				break;
+		}
 		 while (opcion == 1 || opcion == 2);
 	
-		}
+		
 	}
 }
