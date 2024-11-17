@@ -23,6 +23,31 @@ public class UtilidadesMatematicas {
 	}
 	
 	return pos;
+}
+	
+	public static int trozoDeNumero (int pInicial, int pFinal, long num, int dig) {	
 		
+	//Toma como parámetros las posiciones inicial y final dentro
+	//de un número y devuelve el trozo correspondiente.
+	
+	int x = posicionDeDigito(num, dig);
+	
+	return x;
 }
+	
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
