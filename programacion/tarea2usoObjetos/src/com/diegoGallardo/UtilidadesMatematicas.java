@@ -14,13 +14,14 @@ public class UtilidadesMatematicas {
 	
 	public static int posicionDeDigito (long num, int dig) {	
 	
-	int pos= numCifras(num);
+	int pos = numCifras(num);
 	int cif = 0;
 	
-	for( int act=(int) num ; cif==dig ; pos-- ) {
+	for( int act=(int) num ; cif!=dig ; pos-- ) {
 		cif = act%10;
 		act = act/10;
 	}
+	
 	return pos;
 		
 }

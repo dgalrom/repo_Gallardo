@@ -9,6 +9,7 @@ public class EjemploLib {
 		System.out.println(StringUtils.isBlank(""));
 		String s = "432423";
 		s.equals(s);
+		
 	}
 
 }
