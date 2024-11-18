@@ -22,21 +22,42 @@ public class UtilidadesMatematicas {
 		act = act/10;
 	}
 	
-	return pos;
+	return pos+1;
 }
 	
-	public static int trozoDeNumero (int pInicial, int pFinal, long num, int dig) {	
+	public static int trozoDeNumero (int dig, int dig1, long num) {	
 		
 	//Toma como parámetros las posiciones inicial y final dentro
 	//de un número y devuelve el trozo correspondiente.
 	
-	int x = posicionDeDigito(num, dig);
+	 int pos = 1;
+	 int fin = 0;
+	 int numi = (int) num;
+	 int trozo = 0;
+
+	 while (fin != dig) {
+	 
+	 fin = numi % 10;
+	 numi = numi / 10;
+	 
+	 }
+
+	 while (fin != dig1) {
+	    
+	 trozo += fin * pos;
+	 pos *= 10;
+	 fin = numi % 10;
+	 numi = numi / 10;
+	 
+	 }
+
+	 trozo += fin * pos;
+
+	 return trozo;
+	}
 	
-	return x;
 }
 	
-	
-}
 
 
 
