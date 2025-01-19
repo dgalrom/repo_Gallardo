@@ -7,7 +7,7 @@ public class UsoDeObjetos {
 		int dig = 1;
 		int dig1 = 2;
 		int num1 = 5;
-		double dinero = 142.5;
+		double dinero = 142.53;
 		int fecha = 10/10/2006;
 		
 		//UtilidadesMatematicas
