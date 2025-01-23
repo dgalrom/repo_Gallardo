@@ -1,0 +1,47 @@
+package examenPractica;
+
+import java.util.Scanner;
+
+public class ej2 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Introduzca nombres de ciudades: ");
+		
+		String ciudadesStr = scan.nextLine();
+		String[] ciudades = ciudadesStr.split(",");
+		
+		for(int i = 0 ; i<ciudades.length ; i++) {
+			System.out.println(ciudades[i]);
+		}
+		
+		System.out.println(ciudadesOrdenadas(ciudades));
+		
+	}
+	
+	
+		
+		private static boolean ciudadesOrdenadas(String[] ciudades) {
+			boolean ordenado = true;
+			boolean pase = false;
+			char inicialanterior = 0;
+
+			for(int i=0; i>=10 ; i++) {
+				if(i==0 || pase) {
+				inicialanterior = ciudades[i].substring(0,1).charAt(0);
+				}
+				else {
+				char inicialactual = ciudades[i].substring(0,1).charAt(0);
+					if(inicialactual < inicialanterior) {
+						ordenado=false;
+					} else {
+						inicialactual=inicialanterior;
+						pase = true;
+					}
+				}
+			}
+			return ordenado;
+		
+	}
+
+}
