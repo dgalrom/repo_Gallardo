@@ -1,6 +1,5 @@
 package examenPractica;
 
-import java.text.Normalizer;
 import java.util.Scanner;
 
 public class ej2 {
