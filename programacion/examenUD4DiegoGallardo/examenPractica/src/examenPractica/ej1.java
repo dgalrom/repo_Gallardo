@@ -7,13 +7,13 @@ public class ej1 {
    public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
 
-       System.out.print("Por favor, introduce un texto: ");
+       System.out.print("Introduce un texto: ");
        String texto = scan.nextLine().toLowerCase();
 
        if (esPangrama(texto)) {
-           System.out.println("El texto es un pangrama.");
+           System.out.println("Es un pangrama.");
        } else {
-           System.out.println("El texto no es un pangrama.");
+           System.out.println("No es un pangrama.");
            System.out.println("Faltan las siguientes letras: " + letrasFaltantes(texto));
        }
    }
@@ -56,6 +56,6 @@ public class ej1 {
 	        }
 	    }
 
-	    return sbd.toString().trim();
+	    return sbd.toString();
 	}
 }

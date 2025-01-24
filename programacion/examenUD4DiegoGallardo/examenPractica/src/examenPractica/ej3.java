@@ -7,7 +7,7 @@ public class ej3 {
 		
 		System.out.println(matriz0a100());
 		System.out.println(mostrarMatriz());
-		System.out.println(crearMatrizDimMN());
+		System.out.println("Matriz numeros negativos: "+crearMatrizDimMN());
 		
 	}
 		private static int[][] mostrarMatriz() {
@@ -37,9 +37,15 @@ public class ej3 {
 				    int[][] matriz = new int[4][4];
 				    for(int i = 0; i < matriz.length; i++) {
 				        for(int j = 0; j < matriz[0].length; j++) {
-				            matriz[i][j] = (int) (Math.random() * 201) - 100;
+				            matriz[i][j] = (int) (Math.random() * 100) - 100;
 				        }
 				    }
+				    for(int i = 0 ; i<=(matriz.length - 1) ; i++ ) {
+						System.out.println("\t");
+						for(int j = 0 ; j<=(matriz[0].length - 1); j++ ) {
+							System.out.print(matriz[i][j] + " ");		
+						}
+					}
 				    return matriz;
 				}	
 	}
