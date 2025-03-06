@@ -1,0 +1,23 @@
+package examenPractica;
+
+import java.util.Scanner;
+
+public class ej2 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Introduzca nombres de ciudades: ");
+		
+		String ciudadesStr = scan.nextLine();
+		String[] ciudades = ciudadesStr.split(",");
+		
+
+		
+		for(int i = 0 ; i<ciudades.length ; i++) {
+			System.out.println(ciudades[i]);
+		}
+		
+		
+	}
+
+}
