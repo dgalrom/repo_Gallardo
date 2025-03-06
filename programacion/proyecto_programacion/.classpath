@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="ejsud5"/>
 	<classpathentry kind="lib" path="C:/Users/Diego/Downloads/commons-lang3-3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
