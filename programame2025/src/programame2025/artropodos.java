@@ -1,6 +1,6 @@
 package programame2025;
 
-public class artropodos { // Asume fichero llamado antropodos.java
+public class artropodos { // Asume fichero llamado artropodos.java
 
     static java.util.Scanner in;
 
