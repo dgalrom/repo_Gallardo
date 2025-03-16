@@ -1,38 +1,36 @@
 package programame2025;
 
-import java.util.Scanner;
+public class antropodos { // Asume fichero llamado antropodos.java
 
-public class antropodos {
+    static java.util.Scanner in;
 
-	public static void main(String[] args) {
+    public static void casoDePrueba() {
 		
-		Scanner scan = new Scanner(System.in);
-		
-		int pruebas = scan.nextInt();
-		int pruebasAct = 0;
-		
-		while(pruebasAct < pruebas) {
-		
-			int insectos = scan.nextInt();
-			int aracnidos = scan.nextInt();
-			int crustaceos = scan.nextInt();
-			int escolopendras = scan.nextInt();
-			int anillosEsc = scan.nextInt();
+			int insectos = in.nextInt();
+			int aracnidos = in.nextInt();
+			int crustaceos = in.nextInt();
+			int escolopendras = in.nextInt();
+			int anillosEsc = in.nextInt();
 
 			insectos *= 6;
 			aracnidos *= 8;
 			crustaceos *= 10;
 			escolopendras*=anillosEsc*2;
-			System.out.println("\n");
 			int total = insectos+aracnidos+crustaceos+escolopendras;
+			System.out.println(total);
 			
-			if(total<=1000000) {
-				System.out.println(total);
-			} else {
-				System.out.println("El total de patas excede el millón");
-			}
-			pruebasAct++;	
 		}
-		scan.close();
-	}
-}
+
+
+    public static void main(String[] args) {
+
+        in = new java.util.Scanner(System.in);
+
+        int numCasos = in.nextInt();
+        System.out.println("\n");
+        for (int i = 0; i < numCasos; i++)
+            casoDePrueba();
+    } // main
+} // class solution
+
+
